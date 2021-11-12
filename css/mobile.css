@@ -118,10 +118,11 @@
 
 #section2 .container{
     position: absolute;
-    width: 100%;
     top: 50%;
-    left:60%;
+    left:50%;
     transform: translate(-50%,-50%);
+    width: 80%;
+
 }
 
 #section2 .container .redline{
@@ -350,4 +351,83 @@
 }
 #section4 .mobile-global .country-5:hover .world-brand{
     display: block;
+}
+
+/*section5 창업&채용*/
+#section5{
+    width: 100%;
+    height: 100vh;
+    color: #333;
+    background-image:url(../images/section5-mobile-bg.jpg);
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+#section5 .container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#section5 .container .red-box{
+   background: #d50513;
+   width: 200px;
+   height: 40px;
+   text-align: center;
+
+}
+
+#section5 .container .red-box h2{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#section5 .container > h2{
+    font-size: 40px;
+}
+
+
+
+#section5 .container p{
+    margin-top: 50px;
+    white-space: pre-line;
+}
+
+.icon-box{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    
+    
+}
+
+.icon-1{
+    margin-left: 20px;
+}
+.icon-2{
+    margin-right: 20px;
+}
+
+.icon-1, .icon-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.icon-1:hover, .icon-2:hover{
+    border:4px solid #333;
+}
+
+.icon-box img{
+    width: 150px;
+    margin-top: 20px;
 }

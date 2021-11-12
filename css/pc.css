@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 #main-header h1{
     margin-left: 30px;
@@ -46,7 +47,7 @@
 /*section1 더본코리아*/
 #section1{
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 0px);
     color:#fff;
     background-image: url(../images/section1-bg.jpg);
     background-size: cover;
@@ -114,10 +115,10 @@
 
 #section2 .container{
     position: absolute;
-    width: 100%;
     top: 50%;
-    left:60%;
+    left:50%;
     transform: translate(-50%,-50%);
+    width: 80%;
 }
 
 #section2 .container .redline{
@@ -131,6 +132,7 @@
     white-space: pre-line;
     margin-bottom: 30px;
     font-size: 18px;
+    width: 100%;
 }
 #section2 .text-box h3{
     font-size: 24px;
@@ -310,7 +312,7 @@
 #section5 .container{
     width: 100%;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -318,24 +320,6 @@
     align-items: center;
 }
 
-#section5 .container .red-box{
-   background: #d50513;
-   width: 300px;
-   height: 60px;
-   position: absolute;
-   top: -10%;
-   left:50%;
-   transform: translate(-50%,-50%);
-   text-align: center;
-
-}
-
-#section5 .container .red-box h2{
-    line-height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-}
 
 #section5 .container > h2{
     font-size: 40px;
